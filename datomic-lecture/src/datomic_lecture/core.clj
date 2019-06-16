@@ -28,6 +28,12 @@
     :db/id                 (d/tempid :db.part/db)
     :db.install/_attribute :db.part/db}
    
+   {:db/ident              :group/capacity
+    :db/valueType          :db.type/long
+    :db/cardinality        :db.cardinality/one
+    :db/id                 (d/tempid :db.part/db)
+    :db.install/_attribute :db.part/db}
+   
    {:db/ident              :group/students
     :db/valueType          :db.type/ref
     :db/cardinality        :db.cardinality/many
