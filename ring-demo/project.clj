@@ -5,7 +5,8 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [ring "1.7.1"]
-                 [ring/ring-json "0.4.0"]]
+                 [ring/ring-json "0.4.0"]
+                 [compojure "1.6.1"]]
   :ring {:handler ring-demo.core/app}
   :main ^:skip-aot ring-demo.core
   :target-path "target/%s"
