@@ -1,0 +1,9 @@
+https://github.com/clojure/clojurescript
+https://github.com/technomancy/leiningen/wiki/Plugins
+https://github.com/emezeske/lein-cljsbuild
+http://github.com/cemerick/austin
+https://github.com/levand/domina
+http://ckirkendall.github.io/enfocus-site/
+https://github.com/JulianBirch/cljs-ajax
+https://github.com/ibdknox/jayq
+https://github.com/sonian/carica
